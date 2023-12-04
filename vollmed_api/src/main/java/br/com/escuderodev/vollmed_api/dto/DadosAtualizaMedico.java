@@ -1,16 +1,17 @@
 package br.com.escuderodev.vollmed_api.dto;
 
-import br.com.escuderodev.vollmed_api.models.Especialidade;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
-public record DadosCadastroMedico(
+public record DadosAtualizaMedico(
+        @NotNull
+        Long id,
         @NotBlank
         String nome,
         @NotBlank
         String email,
         @NotBlank
         String crm,
-        Especialidade especialidade,
-        DadosCadastroEndereco endereco) {
-
+        DadosCadastroEndereco endereco
+) {
 }
