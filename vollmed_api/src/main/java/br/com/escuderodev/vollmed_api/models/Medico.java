@@ -1,7 +1,7 @@
 package br.com.escuderodev.vollmed_api.models;
 
-import br.com.escuderodev.vollmed_api.dto.DadosAtualizaMedico;
-import br.com.escuderodev.vollmed_api.dto.DadosCadastroMedico;
+import br.com.escuderodev.vollmed_api.dto.endereco.DadosAtualizaMedico;
+import br.com.escuderodev.vollmed_api.dto.medico.DadosCadastroMedico;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.*;

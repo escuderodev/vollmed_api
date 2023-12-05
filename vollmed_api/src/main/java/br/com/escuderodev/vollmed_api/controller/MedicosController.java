@@ -1,14 +1,13 @@
 package br.com.escuderodev.vollmed_api.controller;
 
 import br.com.escuderodev.vollmed_api.controller.exception.NotFoundExceptionController;
-import br.com.escuderodev.vollmed_api.dto.DadosAtualizaMedico;
-import br.com.escuderodev.vollmed_api.dto.DadosCadastroMedico;
-import br.com.escuderodev.vollmed_api.dto.DadosListagemMedico;
+import br.com.escuderodev.vollmed_api.dto.endereco.DadosAtualizaMedico;
+import br.com.escuderodev.vollmed_api.dto.medico.DadosCadastroMedico;
+import br.com.escuderodev.vollmed_api.dto.medico.DadosListagemMedico;
 import br.com.escuderodev.vollmed_api.models.Medico;
 import br.com.escuderodev.vollmed_api.repository.MedicoRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;

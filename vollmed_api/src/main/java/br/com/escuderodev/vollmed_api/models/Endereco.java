@@ -1,6 +1,6 @@
 package br.com.escuderodev.vollmed_api.models;
 
-import br.com.escuderodev.vollmed_api.dto.DadosCadastroEndereco;
+import br.com.escuderodev.vollmed_api.dto.endereco.DadosCadastroEndereco;
 import jakarta.persistence.Embeddable;
 import lombok.*;
 

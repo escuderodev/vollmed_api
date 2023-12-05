@@ -1,5 +1,6 @@
-package br.com.escuderodev.vollmed_api.dto;
+package br.com.escuderodev.vollmed_api.dto.medico;
 
+import br.com.escuderodev.vollmed_api.dto.endereco.DadosCadastroEndereco;
 import br.com.escuderodev.vollmed_api.models.Especialidade;
 import jakarta.validation.constraints.NotBlank;
 

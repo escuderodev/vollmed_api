@@ -1,4 +1,4 @@
-package br.com.escuderodev.vollmed_api.dto;
+package br.com.escuderodev.vollmed_api.dto.medico;
 
 import br.com.escuderodev.vollmed_api.models.Endereco;
 import br.com.escuderodev.vollmed_api.models.Especialidade;
